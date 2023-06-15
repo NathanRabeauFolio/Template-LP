@@ -1,0 +1,23 @@
+---
+layout: 'base.njk'
+section: page
+pagination:
+    data: pdv
+    size: 1
+    alias: pdv
+permalink: "graphiste-proche-de-{{ pdv.ville | slugify }}/"
+---
+<div class="page-container local">
+<section class="intro">
+
+  <div class="intro-in">
+  <h1>
+      <span>Graphiste</span>
+      <span>Web Designer</span>
+      <span>Formateur</span>
+      <span>proche de {{ pdv.ville }}</span>
+  </h1>
+  </div>
+  </section>
+
+</div>
