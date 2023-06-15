@@ -41,8 +41,8 @@ h4,
 h5,
 h6 {
   line-height: 1.1;
-  font-family: var(--font-family-heading);
-  font-weight: 800;
+  font-family: "transducer-variable", sans-serif;
+  font-variation-settings: "slnt" 0, "wdth" 100, "wght" 400;
   margin-top: 3rem;
   margin-bottom: 1.5rem;
   overflow-wrap: break-word;
