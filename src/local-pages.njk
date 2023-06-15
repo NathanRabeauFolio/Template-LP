@@ -5,16 +5,36 @@ pagination:
     data: pdv
     size: 1
     alias: pdv
-permalink: "{{ pdv.ville }}/"
+permalink: "{{ pdv.codec }}/"
 ---
 <div class="page-container local">
+<header>
+    <h3>{{ pdv.ville }}</h3>
+    {{ global.logo | svg | safe }}
+    <a href="{{ pdv.site }}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> je profite de l'offre</a>
+</header>
 <section class="intro">
-
+<div class="letters">
+<span class="l2">L</span><span class="l3">e</span> <span class="l5">pa</span><span class="l3">c</span><span class="l2">k</span><br>
+<span class="l1">P</span><span class="l2">r</span><span class="l3">o</span><span class="l4">t</span><span class="l5">e</span><span class="l5">c</span><span class="l4">t</span><span class="l3">i</span><span class="l2">o</span><span class="l1">n</span>
+</div>
   <div class="intro-in">
   <h1>
 {{ pdv.ville }}
   </h1>
   </div>
+
   </section>
+<footer>
+<iframe
+  width="450"
+  height="250"
+  frameborder="0" style="border:0"
+  referrerpolicy="no-referrer-when-downgrade"
+  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBdVQaBYO6pxNGtZaCdShUFmPBvMoSK0EU&q=Optic+2000+{{ pdv.adresse }}+{{ pdv.cp }}+{{ pdv.ville }}"
+  allowfullscreen>
+</iframe>
+</footer>
+
 
 </div>

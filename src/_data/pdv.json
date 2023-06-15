@@ -1,11 +1,13 @@
 [
     {
-      "ville": "Rennes",
-      "prox1": "Montgermont",
-      "prox2": "La Chapelle-des-Fougeretz",
-      "prox3": "Saint-Grégoire",
-      "prox4": "Vezin-le-Coquet",
-      "prox5": "Melesse"
+      "codec": "C00056",
+      "lat": "46.2371370416337",
+      "long": "1.48771002831435",
+      "adresse": "30, rue Montaudon",
+      "cp": "23300",
+      "ville": "LA SOUTERRAINE",
+      "site": "https://optic2000.com/magasins/l/la-souterraine/30-rue-montaudon/c00056",
+      "facebook": "1875913276029080"
     }
 
   ]
