@@ -183,8 +183,6 @@ img,
 video {
   height: auto;
   max-width: 100%;
-  margin-top: 0;
-  margin-bottom: 2.5rem;
 }
 
 /* Pre and Code */
@@ -309,6 +307,26 @@ fieldset {
   display: block;
   margin-bottom: 0.5rem;
   font-weight: 600;
+}
+
+.pict{ position: relative;
+  .skate {
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: +1;
+    img {
+      width: 100%;
+    }
+    .shad {
+      position: absolute;
+      top: 0;
+      left:0;
+      z-index: -1;
+      opacity: .6;
+      mix-blend-mode: multiply;
+    }
+  }
 }
 
 .letters{
