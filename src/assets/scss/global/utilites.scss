@@ -1,13 +1,13 @@
 .page-container {
-  max-width: var(--site-width);
+  max-width: 100%;
   margin-right: auto;
   margin-left: auto;
 
+  @media (min-width: 1024px) {
+    max-width: var(--site-width);
+  }
   img {
-    display: flex;
-    width: 66%;
-    max-width: 700px;
-    border-radius: none;
+
   }
 }
 
