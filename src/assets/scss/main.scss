@@ -27,3 +27,9 @@
          url('../fonts/antarctica.ttf')  format('truetype');
          font-display:auto;font-style:normal;font-stretch:normal; /* Safari, Android, iOS */
   }
+  @font-face {
+    font-family: 'pangea';
+    src: url('../fonts/pangea.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/pangea.ttf')  format('truetype');
+         font-display:auto;font-style:normal;font-stretch:normal; /* Safari, Android, iOS */
+  }

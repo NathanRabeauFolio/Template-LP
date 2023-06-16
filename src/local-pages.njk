@@ -7,41 +7,194 @@ pagination:
     alias: pdv
 permalink: "{{ pdv.codec }}/"
 ---
-<div class="">
+<div style="
+    overflow: hidden;
+">
 <header class="page-container">
-    <h3>{{ pdv.ville }}</h3>
+  <div class="col">
+    <h3>{{ pdv.ville | lower }}</h3>
+  </div>
+  <div class="col">
     {{ global.logo | svg | safe }}
+  </div>
+  <div class="col">
     <a href="{{ pdv.site }}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> je profite de l'offre</a>
+  </div>
 </header>
 <section class="intro page-container">
       {% image
         "src/assets/img/bg-intro.jpg",
-        "En tant que tapissier décorateur, nous proposons une large gamme de services de couture et de décoration d'intérieur. Nos tapissiers expérimentés travaillent avec des tissus d'ameublement de haute qualité pour créer des canapés et des décors élégants. Nous proposons des voilages et des rideaux sur mesure pour compléter votre décoration intérieure. Avec notre vaste choix de tissus, nous pouvons vous aider à trouver le textile parfait pour votre projet. Nos tapissiers maîtrisent l'art de la confection, de la pose et de la finition des housses, en utilisant des techniques traditionnelles et des garnitures de qualité, notamment le crin. En tant qu'artisans tapissiers, nous sommes passionnés par les métiers d'art et mettons tout notre savoir-faire dans chaque projet. Nous sommes également spécialisés dans les tentures murales, la passementerie et la literie, offrant des finitions impeccables et des garnitures de haute qualité. Que ce soit pour des rideaux, des voilages, des tapisseries ou des tentures murales, nous sommes là pour vous aider à habiller vos fenêtres et vos murs avec style. Nous proposons également des têtes de lit sur mesure, offrant un habillage élégant pour votre lit. En tant que spécialistes de la vente de tissus, nous vous offrons un large choix de matériaux, y compris le velours luxueux et les galons décoratifs. Nous travaillons en étroite collaboration avec des designers pour créer des meubles anciens uniques et restaurer leur beauté d'origine. Les coussins font également partie de nos compétences, ajoutant confort et esthétique à votre intérieur.",
+        "",
         "(min-width: 1024px) 50vw, 100vw",
         "bg-intro",
         "eager"
       %}
+      <div class="girl">
       {% image
         "src/assets/img/girl.png",
-        "En tant que tapissier décorateur, nous proposons une large gamme de services de couture et de décoration d'intérieur. Nos tapissiers expérimentés travaillent avec des tissus d'ameublement de haute qualité pour créer des canapés et des décors élégants. Nous proposons des voilages et des rideaux sur mesure pour compléter votre décoration intérieure. Avec notre vaste choix de tissus, nous pouvons vous aider à trouver le textile parfait pour votre projet. Nos tapissiers maîtrisent l'art de la confection, de la pose et de la finition des housses, en utilisant des techniques traditionnelles et des garnitures de qualité, notamment le crin. En tant qu'artisans tapissiers, nous sommes passionnés par les métiers d'art et mettons tout notre savoir-faire dans chaque projet. Nous sommes également spécialisés dans les tentures murales, la passementerie et la literie, offrant des finitions impeccables et des garnitures de haute qualité. Que ce soit pour des rideaux, des voilages, des tapisseries ou des tentures murales, nous sommes là pour vous aider à habiller vos fenêtres et vos murs avec style. Nous proposons également des têtes de lit sur mesure, offrant un habillage élégant pour votre lit. En tant que spécialistes de la vente de tissus, nous vous offrons un large choix de matériaux, y compris le velours luxueux et les galons décoratifs. Nous travaillons en étroite collaboration avec des designers pour créer des meubles anciens uniques et restaurer leur beauté d'origine. Les coussins font également partie de nos compétences, ajoutant confort et esthétique à votre intérieur.",
+        "",
         "(min-width: 1024px) 50vw, 100vw",
-        "girl",
+        "",
         "eager"
       %}
+      </div>
+      <div class="shad">
       {% image
         "src/assets/img/shadow.png",
-        "En tant que tapissier décorateur, nous proposons une large gamme de services de couture et de décoration d'intérieur. Nos tapissiers expérimentés travaillent avec des tissus d'ameublement de haute qualité pour créer des canapés et des décors élégants. Nous proposons des voilages et des rideaux sur mesure pour compléter votre décoration intérieure. Avec notre vaste choix de tissus, nous pouvons vous aider à trouver le textile parfait pour votre projet. Nos tapissiers maîtrisent l'art de la confection, de la pose et de la finition des housses, en utilisant des techniques traditionnelles et des garnitures de qualité, notamment le crin. En tant qu'artisans tapissiers, nous sommes passionnés par les métiers d'art et mettons tout notre savoir-faire dans chaque projet. Nous sommes également spécialisés dans les tentures murales, la passementerie et la literie, offrant des finitions impeccables et des garnitures de haute qualité. Que ce soit pour des rideaux, des voilages, des tapisseries ou des tentures murales, nous sommes là pour vous aider à habiller vos fenêtres et vos murs avec style. Nous proposons également des têtes de lit sur mesure, offrant un habillage élégant pour votre lit. En tant que spécialistes de la vente de tissus, nous vous offrons un large choix de matériaux, y compris le velours luxueux et les galons décoratifs. Nous travaillons en étroite collaboration avec des designers pour créer des meubles anciens uniques et restaurer leur beauté d'origine. Les coussins font également partie de nos compétences, ajoutant confort et esthétique à votre intérieur.",
+        "",
         "(min-width: 1024px) 50vw, 100vw",
-        "shad",
+        "",
+        "eager"
+      %}
+      </div>
+      <div class="mask">
+              {% image
+        "src/assets/img/mask.svg",
+        "",
+        "(min-width: 1024px) 50vw, 100vw",
+        "",
+        "eager"
+      %}
+      </div>
+      <div class="col-intro">
+
+                    {% image
+        "src/assets/img/junior.svg",
+        "",
+        "(min-width: 1024px) 50vw, 100vw",
+        "",
         "eager"
       %}
 <div class="letters">
 <span class="l10">L</span><span class="l8">e</span> <span class="l6">pa</span><span class="l4">c</span><span class="l2">k</span><br>
 <span class="l1">P</span><span class="l2">r</span><span class="l3">o</span><span class="l4">t</span><span class="l5">e</span><span class="l6">c</span><span class="l7">t</span><span class="l8">i</span><span class="l9">o</span><span class="l10">n</span>
+</div></div>
+</section>
+<section class="page-container arg">
+  <div class="date">du <span>27 juin</span> au <span>30 septembre 2023</span>, en magasin</div>
+  <div class="boxs">
+    <div class="box">
+      <div class="col">
+        une paire optique achetée<br>
+        <span>d'une monture minimum de 150€</span>
+      </div>
+      <div class="col">
+        <div class="math"><span>+</span></div>
+      </div>
+      <div class="col">
+        30€
+      </div>
+    </div>
+    <div class="box">
+      <div class="math">=</div>
+    </div>
+    <div class="box">
+      <div class="col">
+        <span>2<sup>e</sup></span> paire
+      </div>
+      <div class="col">
+        anti-lumière bleu
+      </div>
+    </div>
+    <div class="box">
+      <div class="math">+</div>
+    </div>
+    <div class="box">
+      <div class="col">
+        <span>3<sup>e</sup></span> paire
+      </div>
+      <div class="col">
+        solaire à la vue
+      </div>
+    </div> 
+    
+  </div>
+</section>
+<section class="page-container redac">
+<div class="cols">
+  <div class="col">
+      {% image
+        "src/assets/img/redac01.jpg",
+        "",
+        "(min-width: 1024px) 50vw, 100vw",
+        "",
+        "eager"
+      %}
+  </div>
+  <div class="col">
+    <h2>junior le pack protection</h2>
+    <p>Votre enfant vit des journées bien remplies : lecture, jeux vidéos, sport… et sollicite sa vue en permanence. Pour protéger ses yeux, bénéficiez des conseils de votre opticien et choisissez des lunettes adaptées à ses activités avec le pack protection Junior</p>
+  </div>
+</div>
+<div class="cols">
+  <div class="col">
+    {% image
+        "src/assets/img/redac02.jpg",
+        "",
+        "(min-width: 1024px) 50vw, 100vw",
+        "",
+        "eager"
+      %}
+  </div>
+  <div class="col">
+    <h2>1, 2, 3 paires de lunettes</h2>
+    <p>La vue des enfants se développe et évolue jusqu’à l’adolescence. Leurs yeux sont aussi plus sensibles que ceux des adultes et il est indispensable de les préserver. Le pack protection Junior, c’est une 2e paire avec traitement anti-lumière bleue pour protéger leurs yeux de la lumière bleue nocive des écrans et une 3e paire solaire à la vue pour protéger leurs yeux des rayons UV du soleil.<br>De quoi être bien équipée et profiter encore plus de leurs journées ! </p>
+  </div>
+</div>
+<div class="frame">
+  <div class="col">
+
+  </div>
+  <div class="col">
+    <h2>Le saviez-vous ?</h2>
+    <p>De 0 à 8 ans, la vue est en plein développement. Il est essentiel que les lunettes soient bien portées en privilégiant l'ergonomie de la monture.</p>
+    <p>A partir de 5 ans, un défaut de vision peut avoir des répercussions sur les apprentissages scolaires. Il est donc primordial que votre enfant aime porter ses lunettes. Et comme nous ne laissons rien au hasard, le soin apporté à l’aspect esthétique est aussi important que l’ergonomie de nos montures.</p>
+  </div>
 </div>
 </section>
 <footer>
+<h2>je découvre cette offre dans mon magasin optic 2000 {{ pdv.ville | lower }}</h2>
+<div class="col">
+  <iframe
+  width="50%"
+  height="250"
+  frameborder="0" style="border:0"
+  referrerpolicy="no-referrer-when-downgrade"
+  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBdVQaBYO6pxNGtZaCdShUFmPBvMoSK0EU&q=Optic+2000+{{ pdv.adresse }}+{{ pdv.cp }}+{{ pdv.ville }}"
+  allowfullscreen>
+</iframe>
+</div>
+<div class="col">
+  <p>{{ pdv.adresse }}<br>{{ pdv.cp }} {{ pdv.ville }}</p>
+  <a href="https://www.facebook.com/{{ pdv.facebook }}"><i class="fa fa-facebook-official" aria-hidden="true"></i> facebook</a>
+  <a href="{{ pdv.site }}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> je profite de l'offre</a>
+</div>
 </footer>
 
+<script>
+  window.onload = function () {
+    lax.init()
 
+    // Add a driver that we use to control our animations
+    lax.addDriver('scrollY', function () {
+      return window.scrollY
+    })
+
+    // Add animation bindings to elements
+    lax.addElements(".girl", {
+        scrollY: {
+        translateX: [["0", "pageWidth"], [-100, "pageWidth-150"]],
+        translateY: [["0", "200"], [0, "50"]],
+        scale: [["0", "200"], [".95", "1.15"]],
+        }
+      });
+    lax.addElements(".shad", {
+        scrollY: {
+        translateX: [["0", "pageWidth"], [-100, "pageWidth-150"]],
+        translateY: [["0", "200"], [0, "50"]],
+        scale: [["0", "200"], [".95", "1.15"]],
+        }
+      });
+  }
+</script>
 </div>
