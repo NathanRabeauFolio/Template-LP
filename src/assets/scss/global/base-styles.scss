@@ -348,15 +348,21 @@ display: flex;
   position: absolute;
   right: 0%;
   margin-left: auto;
-  top: 30%;
+  top: 3%;
   font-family: "antarctica", sans-serif;
   text-transform: uppercase;
-  font-size: 4vw;
+  font-size: 14vw;
   text-align: center;
   line-height: .85;
   letter-spacing: -0.05em;
-  color:#a8cdee;
+  color:#111720;
   letter-spacing: .0025em;
+  @media (min-width: 1024px) {
+    font-size: 4vw;
+    top: 30%;
+    color:#a8cdee;
+  }
+
   .l1,.l2,.l3,.l4,.l5,.l6,.l7,.l8,.l9, .l10{
     animation:l1 5s linear 0s infinite alternate;
   }
