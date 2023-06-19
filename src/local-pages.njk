@@ -202,17 +202,26 @@ permalink: "{{ pdv.codec }}/"
   </div>
   <div class="col">
     <h2>Le saviez-vous ?</h2>
-    <p>De 0 à 8 ans, la vue est en plein développement. Il est essentiel que les lunettes soient bien portées en privilégiant l'ergonomie de la monture.</p>
-    <p>A partir de 5 ans, un défaut de vision peut avoir des répercussions sur les apprentissages scolaires. Il est donc primordial que votre enfant aime porter ses lunettes. Et comme nous ne laissons rien au hasard, le soin apporté à l’aspect esthétique est aussi important que l’ergonomie de nos montures.</p>
+    <p><b>De 0 à 8 ans</b>, la vue est en plein développement. Il est essentiel que les lunettes soient bien portées en privilégiant l'ergonomie de la monture.</p>
+    <p><b>A partir de 5 ans</b>, un défaut de vision peut avoir des répercussions sur les apprentissages scolaires. Il est donc primordial que votre enfant aime porter ses lunettes. Et comme nous ne laissons rien au hasard, le soin apporté à l’aspect esthétique est aussi important que l’ergonomie de nos montures.</p>
   </div>
 </div>
 </section>
-<footer>
+<footer class="page-container">
+   <div class="mask">
+              {% image
+        "src/assets/img/mask2.svg",
+        "",
+        "(min-width: 1024px) 50vw, 100vw",
+        "",
+        "eager"
+      %}
+      </div>
 <h2>je découvre cette offre dans mon magasin optic 2000 {{ pdv.ville | lower }}</h2>
 <div class="col">
   <iframe
-  width="50%"
-  height="250"
+  width="100%"
+  height="500"
   frameborder="0" style="border:0"
   referrerpolicy="no-referrer-when-downgrade"
   src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBdVQaBYO6pxNGtZaCdShUFmPBvMoSK0EU&q=Optic+2000+{{ pdv.adresse }}+{{ pdv.cp }}+{{ pdv.ville }}"
@@ -224,6 +233,16 @@ permalink: "{{ pdv.codec }}/"
   <a href="https://www.facebook.com/{{ pdv.facebook }}"><i class="fa fa-facebook-official" aria-hidden="true"></i> facebook</a>
   <a href="{{ pdv.site }}"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> je profite de l'offre</a>
 </div>
+<p class="legal">
+ <b>Mentions légales</b> :<br>
+* Pour l’achat d’un équipement optique complet, compose d’une monture équipée de verres unifocaux avec traitements antireflets d’un montant total minimal de 150€, bénéficiez simultanément pour trente euros de plus du ≪ Pack protection junior ≫, compose d’une 2e paire optique équipée de verres standard blancs, non amincis, avec protection lumière bleue et d’une 3e paire solaire à la vue de votre enfant, équipée de verres standard teintes
+(non durcis, non antireflets et non amincis). Les 2e et 3e paires doivent être composées d’une monture à choisir dans les collections Tango et Baila et de deux verres correcteurs de même correction que la première paire. Offre valable jusqu’au 30/09/2023 inclus, pour les personnes âgées de 2 à 17 ans maximum et applicable pour les corrections suivantes (-8.00 ; +6.00 cyl 4 ; S+C ≤ 6). Offre non cumulable avec d’autres offres et avantages. Photo
+retouchée. Les montures et verres correcteurs constituent des dispositifs médicaux qui sont des produits de santé réglementés, revêtus du marquage CE sur les produits ou le document d’accompagnement, conformément à la réglementation. 
+Demandez conseil à votre opticien. Mai 2023. SIREN 326 980 018 - RCS Nanterre.
+</p>
+<div class="logo-bot">
+    {{ global.logo | svg | safe }}
+  </div>
 </footer>
 
 <script>
