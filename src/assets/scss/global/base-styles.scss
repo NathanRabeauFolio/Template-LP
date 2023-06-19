@@ -439,7 +439,7 @@ display: flex;
 .mask {
   position: absolute;
   width: 100vw;
-  bottom: 0em;
+  bottom: -0.05em;
   left: 0;
   @media (min-width: 1024px) {
     left: -10vw;
@@ -693,6 +693,9 @@ h2 {
   padding: 1em 3em;
   text-align: center;
   margin: 0 auto;
+  span {
+    text-transform: capitalize;
+  }
 }
 .col {
   width: 100%;
