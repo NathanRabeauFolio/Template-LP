@@ -1,23 +1,946 @@
 [
-    {
-      "codec": "C00056",
-      "lat": "46.2371370416337",
-      "long": "1.48771002831435",
-      "adresse": "30, rue Montaudon",
-      "cp": "23300",
-      "ville": "LA SOUTERRAINE",
-      "site": "https://optic2000.com/magasins/l/la-souterraine/30-rue-montaudon/c00056",
-      "facebook": "1875913276029080"
-    },
-    {
-      "codec": "C03217",
-      "lat": "48.5238943540273",
-      "long": "7.69377597666618",
-      "adresse": "Centre commercial Leclerc",
-      "cp": "67118",
-      "ville": "GEISPOLSHEIM",
-      "site": "https://optic2000.com/magasins/l/geispolsheim/centre-commercial-leclerc/c03217",
-      "facebook": "980868758710938"
-    }
-
-  ]
+  {
+    "codec": "C00056",
+    "adresse": "30, rue Montaudon",
+    "cp": "23300",
+    "ville": "LA SOUTERRAINE",
+    "site": "https://optic2000.com/magasins/l/la-souterraine/30-rue-montaudon/c00056",
+    "facebook": "Optic2000lasouterraine"
+  },
+  {
+    "codec": "C03839",
+    "adresse": "11, impasse du goëlo",
+    "cp": "22970",
+    "ville": "PLOUMAGOAR",
+    "site": "https://optic2000.com/magasins/l/ploumagoar/11-impasse-du-goelo/c03839",
+    "facebook": "Optic2000ploumagoar"
+  },
+  {
+    "codec": "C03136",
+    "adresse": "7, rue de la Galerie",
+    "cp": "67370",
+    "ville": "TRUCHTERSHEIM",
+    "site": "https://optic2000.com/magasins/l/truchtersheim/7-rue-de-la-galerie/c03136",
+    "facebook": "Optic2000truchtersheim"
+  },
+  {
+    "codec": "C00563",
+    "adresse": "Centre Commercial Super U",
+    "cp": "07120",
+    "ville": "RUOMS",
+    "site": "https://optic2000.com/magasins/l/ruoms/centre-commercial-super-u/c00563",
+    "facebook": "Optic2000ruoms"
+  },
+  {
+    "codec": "C01743",
+    "adresse": "3, Boulevard Maurice Berteaux",
+    "cp": "95130",
+    "ville": "FRANCONVILLE",
+    "site": "https://optic2000.com/magasins/l/franconville/3-boulevard-maurice-berteaux/c01743",
+    "facebook": "Optic2000franconville"
+  },
+  {
+    "codec": "C00998",
+    "adresse": "35, Rue Tupinerie",
+    "cp": "42600",
+    "ville": "MONTBRISON",
+    "site": "https://optic2000.com/magasins/l/montbrison/35-rue-tupinerie/c00998",
+    "facebook": "Optic2000montbrison"
+  },
+  {
+    "codec": "C00049",
+    "adresse": "58, place Jean Jaurès",
+    "cp": "26100",
+    "ville": "ROMANS",
+    "site": "https://optic2000.com/magasins/l/romans/58-place-jean-jaures/c00049",
+    "facebook": "Optic2000romans"
+  },
+  {
+    "codec": "C02521",
+    "adresse": "5, Avenue Joffre",
+    "cp": "92380",
+    "ville": "GARCHES",
+    "site": "https://optic2000.com/magasins/l/garches/5-avenue-joffre/c02521",
+    "facebook": "Optic2000garches"
+  },
+  {
+    "codec": "C01593",
+    "adresse": "82, rue de la République",
+    "cp": "38260",
+    "ville": "LA COTE SAINT ANDRE",
+    "site": "https://optic2000.com/magasins/l/la-cote-saint-andre/82-rue-de-la-republique/c01593",
+    "facebook": "Optic2000lacotesaintandre"
+  },
+  {
+    "codec": "C03752",
+    "adresse": "Plateau des Couleures",
+    "cp": "26000",
+    "ville": "VALENCE",
+    "site": "https://optic2000.com/magasins/l/valence/plateau-des-couleures/c03752",
+    "facebook": "Optic2000valence"
+  },
+  {
+    "codec": "C00850",
+    "adresse": "Galerie Auchan",
+    "cp": "07500",
+    "ville": "GUILHERAND GRANGES",
+    "site": "https://optic2000.com/magasins/l/guilherand-granges/galerie-auchan/c00850",
+    "facebook": "Optic2000guilherandgranges"
+  },
+  {
+    "codec": "C00834",
+    "adresse": "ZAC du Lantey",
+    "cp": "38510",
+    "ville": "PASSINS",
+    "site": "https://optic2000.com/magasins/l/passins/zac-du-lantey/c00834",
+    "facebook": "Optic2000passins"
+  },
+  {
+    "codec": "C03629",
+    "adresse": "3, Place du Marché",
+    "cp": "57260",
+    "ville": "DIEUZE",
+    "site": "https://optic2000.com/magasins/l/dieuze/3-place-du-marche/c03629",
+    "facebook": "Optic2000dieuze"
+  },
+  {
+    "codec": "C01327",
+    "adresse": "15, rue des Romains",
+    "cp": "57360",
+    "ville": "AMNEVILLE LES THERMES",
+    "site": "https://optic2000.com/magasins/l/amneville-les-thermes/15-rue-des-romains/c01327",
+    "facebook": "Optic2000amnevillelesthermes"
+  },
+  {
+    "codec": "C03646",
+    "adresse": "2, Place Turenne",
+    "cp": "57100",
+    "ville": "THIONVILLE",
+    "site": "https://optic2000.com/magasins/l/thionville/2-place-turenne/c03646",
+    "facebook": "Optic2000thionville"
+  },
+  {
+    "codec": "C02203",
+    "adresse": "110, grand'Rue",
+    "cp": "67130",
+    "ville": "SCHIRMECK",
+    "site": "https://optic2000.com/magasins/l/schirmeck/110-grand-rue/c02203",
+    "facebook": "Optic2000schirmeck"
+  },
+  {
+    "codec": "C00031",
+    "adresse": "167, route de Marseille",
+    "cp": "26200",
+    "ville": "MONTELIMAR",
+    "site": "https://optic2000.com/magasins/l/montelimar/167-route-de-marseille/c00031",
+    "facebook": "Optic2000montelimar"
+  },
+  {
+    "codec": "C01956",
+    "adresse": "6, allées Paul Riquet",
+    "cp": "34500",
+    "ville": "BEZIERS",
+    "site": "https://optic2000.com/magasins/l/beziers/6-allees-paul-riquet/c01956",
+    "facebook": "Optic2000beziers"
+  },
+  {
+    "codec": "C01957",
+    "adresse": "23, Rue du Pêcher",
+    "cp": "43120",
+    "ville": "MONISTROL SUR LOIRE",
+    "site": "https://optic2000.com/magasins/l/monistrol-sur-loire/23-rue-du-pecher/c01957",
+    "facebook": "Optic2000monistrolsurloire"
+  },
+  {
+    "codec": "C01966",
+    "adresse": "Centre Commercial Cora",
+    "cp": "63370",
+    "ville": "LEMPDES",
+    "site": "https://optic2000.com/magasins/l/lempdes/centre-commercial-cora/c01966",
+    "facebook": "Optic2000lempdes"
+  },
+  {
+    "codec": "C00087",
+    "adresse": "12, rue de Paris",
+    "cp": "47300",
+    "ville": "VILLENEUVE SUR LOT",
+    "site": "https://optic2000.com/magasins/l/villeneuve-sur-lot/12-rue-de-paris/c00087",
+    "facebook": "Optic2000villeneuvesurlot"
+  },
+  {
+    "codec": "C01978",
+    "adresse": "37, Boulevard Fernand Hostachy",
+    "cp": "78290",
+    "ville": "CROISSY SUR SEINE",
+    "site": "https://optic2000.com/magasins/l/croissy-sur-seine/37-boulevard-fernand-hostachy/c01978",
+    "facebook": "Optic2000croissysurseine"
+  },
+  {
+    "codec": "C00089",
+    "adresse": "2, place de l'Etoile",
+    "cp": "38000",
+    "ville": "GRENOBLE",
+    "site": "https://optic2000.com/magasins/l/grenoble/2-place-de-l-etoile/c00089",
+    "facebook": "Optic2000grenoble"
+  },
+  {
+    "codec": "C00102",
+    "adresse": "22, Rue Victor Hugo",
+    "cp": "71600",
+    "ville": "PARAY LE MONIAL",
+    "site": "https://optic2000.com/magasins/l/paray-le-monial/22-rue-victor-hugo/c00102",
+    "facebook": "Optic2000paraylemonial"
+  },
+  {
+    "codec": "C00104",
+    "adresse": "Angle place Dorian et Hôtel de ville",
+    "cp": "42000",
+    "ville": "SAINT ETIENNE",
+    "site": "https://www.optic2000.com/magasins/l/saint-etienne/15-place-hotel-de-ville/c00104",
+    "facebook": "Optic2000saintetienne"
+  },
+  {
+    "codec": "C00114",
+    "adresse": "26, rue Saint François",
+    "cp": "57350",
+    "ville": "STIRING-WENDEL",
+    "site": "https://optic2000.com/magasins/l/stiring-wendel/26-rue-saint-francois/c00114",
+    "facebook": "Optic2000stiringwendel"
+  },
+  {
+    "codec": "C00137",
+    "adresse": "40, rue des Dominicains",
+    "cp": "54000",
+    "ville": "NANCY",
+    "site": "https://optic2000.com/magasins/l/nancy/40-rue-des-dominicains/c00137",
+    "facebook": "Optic2000nancy"
+  },
+  {
+    "codec": "C00172",
+    "adresse": "117, av. Henri Barbusse",
+    "cp": "93700",
+    "ville": "DRANCY",
+    "site": "https://optic2000.com/magasins/l/drancy/117-av-henri-barbusse/c00172",
+    "facebook": "Optic2000drancy"
+  },
+  {
+    "codec": "C00174",
+    "adresse": "9, place Jean Bégault",
+    "cp": "49700",
+    "ville": "DOUE LA FONTAINE",
+    "site": "https://optic2000.com/magasins/l/doue-la-fontaine/9-place-jean-begault/c00174",
+    "facebook": "Optic2000douelafontaine"
+  },
+  {
+    "codec": "C02088",
+    "adresse": "8, av. de Verdun",
+    "cp": "33610",
+    "ville": "CESTAS GAZINET",
+    "site": "https://optic2000.com/magasins/l/cestas-gazinet/8-av-de-verdun/c02088",
+    "facebook": "Optic2000cestasgazinet"
+  },
+  {
+    "codec": "C00184",
+    "adresse": "1, rue du Moulin",
+    "cp": "57200",
+    "ville": "SARREGUEMINES",
+    "site": "https://optic2000.com/magasins/l/sarreguemines/1-rue-du-moulin/c00184",
+    "facebook": "Optic2000sarreguemines"
+  },
+  {
+    "codec": "C00257",
+    "adresse": "31-33, Rue du Châtelet",
+    "cp": "71100",
+    "ville": "CHALON-SUR-SAONE",
+    "site": "https://optic2000.com/magasins/l/chalon-sur-saone/31-33-rue-du-chatelet/c00257",
+    "facebook": "Optic2000chalonsursaone"
+  },
+  {
+    "codec": "C02201",
+    "adresse": "6, place Etienne Marcel",
+    "cp": "78180",
+    "ville": "MONTIGNY LE BRETONNEUX",
+    "site": "https://optic2000.com/magasins/l/montigny-le-bretonneux/6-place-etienne-marcel/c02201",
+    "facebook": "Optic2000montignylebretonneux"
+  },
+  {
+    "codec": "C02233",
+    "adresse": "2, rue Chaptal",
+    "cp": "11000",
+    "ville": "CARCASSONNE",
+    "site": "https://optic2000.com/magasins/l/carcassonne/2-rue-chaptal/c02233",
+    "facebook": "Optic2000carcassonne"
+  },
+  {
+    "codec": "C02283",
+    "adresse": "16, place d’Armes",
+    "cp": "57000",
+    "ville": "METZ",
+    "site": "https://optic2000.com/magasins/l/metz/16-place-d-armes/c02283",
+    "facebook": "Optic2000metz"
+  },
+  {
+    "codec": "C02321",
+    "adresse": "3, Rue du Maréchal Leclerc",
+    "cp": "71200",
+    "ville": "LE CREUSOT",
+    "site": "https://optic2000.com/magasins/l/le-creusot/3-rue-du-marechal-leclerc/c02321",
+    "facebook": "Optic2000lecreusot"
+  },
+  {
+    "codec": "C00421",
+    "adresse": "170, route de Lyon",
+    "cp": "67400",
+    "ville": "ILLKIRCH-GRAFFENSTADEN",
+    "site": "https://optic2000.com/magasins/l/illkirch-graffenstaden/170-route-de-lyon/c00421",
+    "facebook": "Optic2000illkirchgraffenstaden"
+  },
+  {
+    "codec": "C02351",
+    "adresse": "Centre Commercial Géant Bretagnia",
+    "cp": "29600",
+    "ville": "SAINT-MARTIN-DES-CHAMPS",
+    "site": "https://optic2000.com/magasins/l/saint-martin-des-champs/centre-commercial-geant-bretagnia/c02351",
+    "facebook": "Optic2000saintmartindeschamps"
+  },
+  {
+    "codec": "C00449",
+    "adresse": "29, grande Rue",
+    "cp": "07300",
+    "ville": "TOURNON SUR RHONE",
+    "site": "https://optic2000.com/magasins/l/tournon-sur-rhone/29-grande-rue/c00449",
+    "facebook": "Optic2000tournonsurrhone"
+  },
+  {
+    "codec": "C00450",
+    "adresse": "17 bis, place Seignobosc",
+    "cp": "07270",
+    "ville": "LAMASTRE",
+    "site": "https://optic2000.com/magasins/l/lamastre/17-bis-place-seignobosc/c00450",
+    "facebook": "Optic2000lamastre"
+  },
+  {
+    "codec": "C00460",
+    "adresse": "300, av. Saint André de Codols",
+    "cp": "30900",
+    "ville": "NIMES",
+    "site": "https://optic2000.com/magasins/l/nimes/300-av-saint-andre-de-codols/c00460",
+    "facebook": "Optic2000nimes"
+  },
+  {
+    "codec": "C02419",
+    "adresse": "12, av. Maurice Thorez",
+    "cp": "57250",
+    "ville": "MOYEUVRE GRANDE",
+    "site": "https://optic2000.com/magasins/l/moyeuvre-grande/12-av-maurice-thorez/c02419",
+    "facebook": "Optic2000moyeuvregrande"
+  },
+  {
+    "codec": "C02485",
+    "adresse": "8, place Gérard Barrois",
+    "cp": "54130",
+    "ville": "SAINT-MAX",
+    "site": "https://optic2000.com/magasins/l/saint-max/8-place-gerard-barrois/c02485",
+    "facebook": "Optic2000saintmax"
+  },
+  {
+    "codec": "C02517",
+    "adresse": "11, place Le Sciellour",
+    "cp": "56150",
+    "ville": "BAUD",
+    "site": "https://optic2000.com/magasins/l/baud/11-place-le-sciellour/c02517",
+    "facebook": "Optic2000baud"
+  },
+  {
+    "codec": "C00589",
+    "adresse": "27, place Duroc",
+    "cp": "54700",
+    "ville": "PONT-A-MOUSSON",
+    "site": "https://optic2000.com/magasins/l/pont-a-mousson/27-place-duroc/c00589",
+    "facebook": "Optic2000pontamousson"
+  },
+  {
+    "codec": "C02581",
+    "adresse": "11, place Thiers",
+    "cp": "53500",
+    "ville": "ERNEE",
+    "site": "https://optic2000.com/magasins/l/ernee/11-place-thiers/c02581",
+    "facebook": "Optic2000ernee"
+  },
+  {
+    "codec": "C00650",
+    "adresse": "1, place du Maréchal Foch",
+    "cp": "55100",
+    "ville": "VERDUN",
+    "site": "https://optic2000.com/magasins/l/verdun/1-place-du-marechal-foch/c00650",
+    "facebook": "Optic2000verdun"
+  },
+  {
+    "codec": "C02678",
+    "adresse": "2594, RN 7",
+    "cp": "06270",
+    "ville": "VILLENEUVE LOUBET",
+    "site": "https://optic2000.com/magasins/l/villeneuve-loubet/2594-rn-7/c02678",
+    "facebook": "Optic2000villeneuveloubet"
+  },
+  {
+    "codec": "C02688",
+    "adresse": "31 bis, rue de la République",
+    "cp": "58300",
+    "ville": "DECIZE",
+    "site": "https://optic2000.com/magasins/l/decize/31-bis-rue-de-la-republique/c02688",
+    "facebook": "Optic2000decize"
+  },
+  {
+    "codec": "C00748",
+    "adresse": "Centre Commercial Cora",
+    "cp": "57200",
+    "ville": "SARREGUEMINES",
+    "site": "https://optic2000.com/magasins/l/sarreguemines/centre-commercial-cora/c00748",
+    "facebook": "Optic2000sarreguemines"
+  },
+  {
+    "codec": "C02801",
+    "adresse": "75, av. du Général de Gaulle",
+    "cp": "54380",
+    "ville": "DIEULOUARD",
+    "site": "https://optic2000.com/magasins/l/dieulouard/75-av-du-general-de-gaulle/c02801",
+    "facebook": "Optic2000dieulouard"
+  },
+  {
+    "codec": "C00938",
+    "adresse": "2, Pasteur",
+    "cp": "19360",
+    "ville": "MALEMORT",
+    "site": "https://optic2000.com/magasins/l/malemort/2-pasteur/c00938",
+    "facebook": "Optic2000malemort"
+  },
+  {
+    "codec": "C00826",
+    "adresse": "9, place du Marché",
+    "cp": "29150",
+    "ville": "CHATEAULIN",
+    "site": "https://optic2000.com/magasins/l/chateaulin/9-place-du-marche/c00826",
+    "facebook": "Optic2000chateaulin"
+  },
+  {
+    "codec": "C02984",
+    "adresse": "Centre Commercial Carrefour",
+    "cp": "66000",
+    "ville": "PERPIGNAN",
+    "site": "https://optic2000.com/magasins/l/perpignan/centre-commercial-carrefour/c02984",
+    "facebook": "Optic2000perpignan"
+  },
+  {
+    "codec": "C00857",
+    "adresse": "31, rue Alsace Lorraine",
+    "cp": "29160",
+    "ville": "CROZON",
+    "site": "https://optic2000.com/magasins/l/crozon/31-rue-alsace-lorraine/c00857",
+    "facebook": "Optic2000crozon"
+  },
+  {
+    "codec": "C02986",
+    "adresse": "19, place G. le Conquérant",
+    "cp": "76260",
+    "ville": "EU",
+    "site": "https://optic2000.com/magasins/l/eu/19-place-g-le-conquerant/c02986",
+    "facebook": "Optic2000eu"
+  },
+  {
+    "codec": "C03029",
+    "adresse": "rue d'Indy",
+    "cp": "67260",
+    "ville": "SARRE-UNION",
+    "site": "https://optic2000.com/magasins/l/sarre-union/rue-d-indy/c03029",
+    "facebook": "Optic2000sarreunion"
+  },
+  {
+    "codec": "C03034",
+    "adresse": "29, rue du Bois d'Orly",
+    "cp": "57685",
+    "ville": "AUGNY",
+    "site": "https://optic2000.com/magasins/l/augny/29-rue-du-bois-d-orly/c03034",
+    "facebook": "Optic2000augny"
+  },
+  {
+    "codec": "C00928",
+    "adresse": "126, route de Bischwiller",
+    "cp": "67300",
+    "ville": "SCHILTIGHEIM",
+    "site": "https://optic2000.com/magasins/l/schiltigheim/126-route-de-bischwiller/c00928",
+    "facebook": "Optic2000schiltigheim"
+  },
+  {
+    "codec": "C00944",
+    "adresse": "28 bis, Bd de Courtais",
+    "cp": "03100",
+    "ville": "MONTLUCON",
+    "site": "https://optic2000.com/magasins/l/montlucon/28-bis-bd-de-courtais/c00944",
+    "facebook": "Optic2000montlucon"
+  },
+  {
+    "codec": "C01027",
+    "adresse": "1, Rue de la République",
+    "cp": "63600",
+    "ville": "AMBERT",
+    "site": "https://optic2000.com/magasins/l/ambert/1-rue-de-la-republique/c01027",
+    "facebook": "Optic2000ambert"
+  },
+  {
+    "codec": "C03096",
+    "adresse": "Route de Concarneau",
+    "cp": "29910",
+    "ville": "TREGUNC",
+    "site": "https://optic2000.com/magasins/l/tregunc/route-de-concarneau/c03096",
+    "facebook": "Optic2000tregunc"
+  },
+  {
+    "codec": "C03101",
+    "adresse": "Centre Commercial E. Leclerc",
+    "cp": "24200",
+    "ville": "SARLAT-LA-CANÉDA",
+    "site": "https://optic2000.com/magasins/l/sarlat-la-caneda/centre-commercial-e-leclerc/c03101",
+    "facebook": "Optic2000sarlatlacanda"
+  },
+  {
+    "codec": "C01056",
+    "adresse": "25, Grande Rue",
+    "cp": "03800",
+    "ville": "GANNAT",
+    "site": "https://optic2000.com/magasins/l/gannat/25-grande-rue/c01056",
+    "facebook": "Optic2000gannat"
+  },
+  {
+    "codec": "C03185",
+    "adresse": "33, rue Léopold Bourg",
+    "cp": "88000",
+    "ville": "EPINAL",
+    "site": "https://optic2000.com/magasins/l/epinal/33-rue-leopold-bourg/c03185",
+    "facebook": "Optic2000epinal"
+  },
+  {
+    "codec": "C03187",
+    "adresse": "18, Place du Drapeau",
+    "cp": "03300",
+    "ville": "CUSSET",
+    "site": "https://optic2000.com/magasins/l/cusset/18-place-du-drapeau/c03187",
+    "facebook": "Optic2000cusset"
+  },
+  {
+    "codec": "C01211",
+    "adresse": "10, place Paul Collin",
+    "cp": "57500",
+    "ville": "SAINT-AVOLD",
+    "site": "https://optic2000.com/magasins/l/saint-avold/10-place-paul-collin/c01211",
+    "facebook": "Optic2000saintavold"
+  },
+  {
+    "codec": "C03212",
+    "adresse": "Centre Commercial Géant Casino",
+    "cp": "33600",
+    "ville": "PESSAC",
+    "site": "https://optic2000.com/magasins/l/pessac/centre-commercial-geant-casino/c03212",
+    "facebook": "Optic2000pessac"
+  },
+  {
+    "codec": "C01221",
+    "adresse": "9, quai du Maréchal Leclerc",
+    "cp": "88100",
+    "ville": "SAINT-DIE",
+    "site": "https://optic2000.com/magasins/l/saint-die/9-quai-du-marechal-leclerc/c01221",
+    "facebook": "Optic2000saintdie"
+  },
+  {
+    "codec": "C03217",
+    "adresse": "Centre commercial Leclerc",
+    "cp": "67118",
+    "ville": "GEISPOLSHEIM",
+    "site": "https://optic2000.com/magasins/l/geispolsheim/centre-commercial-leclerc/c03217",
+    "facebook": "Optic2000geispolsheim"
+  },
+  {
+    "codec": "C03248",
+    "adresse": "1 Espace La Vague St Hubert",
+    "cp": "38080",
+    "ville": "L'ISLE D'ABEAU",
+    "site": "https://optic2000.com/magasins/l/l-isle-d-abeau/1-espace-la-vague-st-hubert/c03248",
+    "facebook": "Optic2000lisledabeau"
+  },
+  {
+    "codec": "C01267",
+    "adresse": "1, rue Maurice Berteaux",
+    "cp": "78700",
+    "ville": "CONFLANS-SAINTE-HONORINE",
+    "site": "https://optic2000.com/magasins/l/conflans-sainte-honorine/1-rue-maurice-berteaux/c01267",
+    "facebook": "Optic2000conflanssaintehonorine"
+  },
+  {
+    "codec": "C03259",
+    "adresse": "33, rue de l'Allier",
+    "cp": "03000",
+    "ville": "MOULINS",
+    "site": "https://optic2000.com/magasins/l/moulins/33-rue-de-l-allier/c03259",
+    "facebook": "Optic2000moulins"
+  },
+  {
+    "codec": "C01323",
+    "adresse": "9, rue André Pézard",
+    "cp": "55100",
+    "ville": "VERDUN",
+    "site": "https://optic2000.com/magasins/l/verdun/9-rue-andre-pezard/c01323",
+    "facebook": "Optic2000verdun"
+  },
+  {
+    "codec": "C01325",
+    "adresse": "26, Grande Rue",
+    "cp": "38169",
+    "ville": "SAINT MARCELLIN",
+    "site": "https://optic2000.com/magasins/l/saint-marcellin/26-grande-rue/c01325",
+    "facebook": "Optic2000saintmarcellin"
+  },
+  {
+    "codec": "C01329",
+    "adresse": "4, Place du 14 juillet",
+    "cp": "03600",
+    "ville": "COMMENTRY",
+    "site": "https://optic2000.com/magasins/l/commentry/4-place-du-14-juillet/c01329",
+    "facebook": "Optic2000commentry"
+  },
+  {
+    "codec": "C03314",
+    "adresse": "28, av. de la Mirande",
+    "cp": "66240",
+    "ville": "SAINT ESTEVE",
+    "site": "https://optic2000.com/magasins/l/saint-esteve/28-av-de-la-mirande/c03314",
+    "facebook": "Optic2000saintesteve"
+  },
+  {
+    "codec": "C03365",
+    "adresse": "Centre Commercial Leclerc",
+    "cp": "54390",
+    "ville": "FROUARD",
+    "site": "https://optic2000.com/magasins/l/frouard/centre-commercial-leclerc/c03365",
+    "facebook": "Optic2000frouard"
+  },
+  {
+    "codec": "C03373",
+    "adresse": "69, av. de la Libération",
+    "cp": "57530",
+    "ville": "COURCELLES-CHAUSSY",
+    "site": "https://optic2000.com/magasins/l/courcelles-chaussy/69-av-de-la-liberation/c03373",
+    "facebook": "Optic2000courcelleschaussy"
+  },
+  {
+    "codec": "C03384",
+    "adresse": "15, rue du Maréchal Joffre",
+    "cp": "47400",
+    "ville": "TONNEINS",
+    "site": "https://optic2000.com/magasins/l/tonneins/11-rue-du-marechal-joffre/c03384",
+    "facebook": "Optic2000tonneins"
+  },
+  {
+    "codec": "C01401",
+    "adresse": "37, Avenue René Descartes",
+    "cp": "33160",
+    "ville": "SAINT MEDARD EN JALLES",
+    "site": "https://optic2000.com/magasins/l/saint-medard-en-jalles/37-avenue-rene-descartes/c01401",
+    "facebook": "Optic2000saintmedardenjalles"
+  },
+  {
+    "codec": "C01437",
+    "adresse": "4 bis, Avenue de Firminy",
+    "cp": "43110",
+    "ville": "AUREC SUR LOIRE",
+    "site": "https://optic2000.com/magasins/l/aurec-sur-loire/4-bis-avenue-de-firminy/c01437",
+    "facebook": "Optic2000aurecsurloire"
+  },
+  {
+    "codec": "C03445",
+    "adresse": "2, rue Alfred Mézières",
+    "cp": "54400",
+    "ville": "LONGWY",
+    "site": "https://optic2000.com/magasins/l/longwy/2-rue-alfred-mezieres/c03445",
+    "facebook": "Optic2000longwy"
+  },
+  {
+    "codec": "C01440",
+    "adresse": "Centre Commercial Super U",
+    "cp": "49260",
+    "ville": "MONTREUIL BELLAY CEDEX",
+    "site": "https://optic2000.com/magasins/l/montreuil-bellay-cedex/centre-commercial-super-u/c01440",
+    "facebook": "Optic2000montreuilbellaycedex"
+  },
+  {
+    "codec": "C03454",
+    "adresse": "13, Rue Albert Einstein",
+    "cp": "03100",
+    "ville": "MONTLUCON",
+    "site": "https://optic2000.com/magasins/l/montlucon/13-rue-albert-einstein/c03454",
+    "facebook": "Optic2000montlucon"
+  },
+  {
+    "codec": "C01457",
+    "adresse": "4, bd des Alliés",
+    "cp": "30700",
+    "ville": "UZES",
+    "site": "https://optic2000.com/magasins/l/uzes/4-bd-des-allies/c01457",
+    "facebook": "Optic2000uzes"
+  },
+  {
+    "codec": "C01483",
+    "adresse": "Centre Commercial E.Leclerc",
+    "cp": "88200",
+    "ville": "SAINT-ETIENNE-LES-REMIREMONT",
+    "site": "https://optic2000.com/magasins/l/saint-etienne-les-remiremont/centre-commercial-e-leclerc/c01483",
+    "facebook": "Optic2000saintetiennelesremiremont"
+  },
+  {
+    "codec": "C01490",
+    "adresse": "3, rue Barré",
+    "cp": "56400",
+    "ville": "AURAY",
+    "site": "https://optic2000.com/magasins/l/auray/3-rue-barre/c01490",
+    "facebook": "Optic2000auray"
+  },
+  {
+    "codec": "C01493",
+    "adresse": "Centre Commercial Intermarché",
+    "cp": "31450",
+    "ville": "MONTGISCARD",
+    "site": "https://optic2000.com/magasins/l/montgiscard/centre-commercial-intermarche/c01493",
+    "facebook": "Optic2000montgiscard"
+  },
+  {
+    "codec": "C01496",
+    "adresse": "64, rue du Général Gouraud",
+    "cp": "67210",
+    "ville": "OBERNAI",
+    "site": "https://optic2000.com/magasins/l/obernai/64-rue-du-general-gouraud/c01496",
+    "facebook": "Optic2000obernai"
+  },
+  {
+    "codec": "C01506",
+    "adresse": "3, rue Victor Hugo",
+    "cp": "31250",
+    "ville": "REVEL",
+    "site": "https://optic2000.com/magasins/l/revel/3-rue-victor-hugo/c01506",
+    "facebook": "Optic2000revel"
+  },
+  {
+    "codec": "C01524",
+    "adresse": "58, bd du Maréchal Juin",
+    "cp": "06800",
+    "ville": "CAGNES SUR MER",
+    "site": "https://optic2000.com/magasins/l/cagnes-sur-mer/58-bd-du-marechal-juin/c01524",
+    "facebook": "Optic2000cagnessurmer"
+  },
+  {
+    "codec": "C03537",
+    "adresse": "Centre Commercial B'EST",
+    "cp": "57450",
+    "ville": "FAREBERSVILLER",
+    "site": "https://optic2000.com/magasins/l/farebersviller/centre-commercial-b-est/c03537",
+    "facebook": "Optic2000farebersviller"
+  },
+  {
+    "codec": "C01602",
+    "adresse": "Centre Commercial E.Leclerc",
+    "cp": "29260",
+    "ville": "LE FOLGOET",
+    "site": "https://optic2000.com/magasins/l/le-folgoet/centre-commercial-e-leclerc/c01602",
+    "facebook": "Optic2000lefolgoet"
+  },
+  {
+    "codec": "C01627",
+    "adresse": "96, Av. de Chazeuil",
+    "cp": "03150",
+    "ville": "VARENNES SUR ALLIER",
+    "site": "https://optic2000.com/magasins/l/varennes-sur-allier/96-av-de-chazeuil/c01627",
+    "facebook": "Optic2000varennessurallier"
+  },
+  {
+    "codec": "C01633",
+    "adresse": "8, place de la Victoire",
+    "cp": "67600",
+    "ville": "SELESTAT",
+    "site": "https://optic2000.com/magasins/l/selestat/8-place-de-la-victoire/c01633",
+    "facebook": "Optic2000selestat"
+  },
+  {
+    "codec": "C01638",
+    "adresse": "79, rue du Maréchal Foch",
+    "cp": "67380",
+    "ville": "LINGOLSHEIM",
+    "site": "https://optic2000.com/magasins/l/lingolsheim/79-rue-du-marechal-foch/c01638",
+    "facebook": "Optic2000lingolsheim"
+  },
+  {
+    "codec": "C01653",
+    "adresse": "10 bis, rue Victor Hugo",
+    "cp": "29770",
+    "ville": "AUDIERNE",
+    "site": "https://optic2000.com/magasins/l/audierne/10-bis-rue-victor-hugo/c01653",
+    "facebook": "Optic2000audierne"
+  },
+  {
+    "codec": "C03626",
+    "adresse": "12, Route de Saint Pourçain",
+    "cp": "03110",
+    "ville": "CHARMEIL",
+    "site": "https://optic2000.com/magasins/l/charmeil/12-route-de-saint-pourcain/c03626",
+    "facebook": "Optic2000charmeil"
+  },
+  {
+    "codec": "C03664",
+    "adresse": "27, Place saint Mathieu",
+    "cp": "29000",
+    "ville": "QUIMPER",
+    "site": "https://optic2000.com/magasins/l/quimper/27-place-saint-mathieu/c03664",
+    "facebook": "Optic2000quimper"
+  },
+  {
+    "codec": "C01701",
+    "adresse": "Centre Commercial Intermarché",
+    "cp": "56860",
+    "ville": "SENE",
+    "site": "https://optic2000.com/magasins/l/sene/centre-commercial-intermarche/c01701",
+    "facebook": "Optic2000sene"
+  },
+  {
+    "codec": "C01741",
+    "adresse": "83-85, rue Théophile Roussel",
+    "cp": "48200",
+    "ville": "SAINT CHELY D'APCHER",
+    "site": "https://optic2000.com/magasins/l/saint-chely-d-apcher/83-85-rue-theophile-roussel/c01741",
+    "facebook": "Optic2000saintchelydapcher"
+  },
+  {
+    "codec": "C01754",
+    "adresse": "216, av. du Las",
+    "cp": "33127",
+    "ville": "SAINT JEAN D'ILLAC",
+    "site": "https://optic2000.com/magasins/l/saint-jean-d-illac/216-av-du-las/c01754",
+    "facebook": "Optic2000saintjeandillac"
+  },
+  {
+    "codec": "C01779",
+    "adresse": "3, Avenue du 8 mai 1945",
+    "cp": "63118",
+    "ville": "CEBAZAT",
+    "site": "https://optic2000.com/magasins/l/cebazat/3-avenue-du-8-mai-1945/c01779",
+    "facebook": "Optic2000cebazat"
+  },
+  {
+    "codec": "C03725",
+    "adresse": "65, Rue Charles de Gaulle",
+    "cp": "91300",
+    "ville": "YERRES",
+    "site": "https://optic2000.com/magasins/l/yerres/65-rue-charles-de-gaulle/c03725",
+    "facebook": "Optic2000yerres"
+  },
+  {
+    "codec": "C01819",
+    "adresse": "Place Robert Lasalle",
+    "cp": "40140",
+    "ville": "SOUSTONS",
+    "site": "https://optic2000.com/magasins/l/soustons/place-robert-lasalle/c01819",
+    "facebook": "Optic2000soustons"
+  },
+  {
+    "codec": "C01895",
+    "adresse": "2, Rue Fg de Paris",
+    "cp": "03500",
+    "ville": "SAINT POURCAIN SUR SIOULE",
+    "site": "https://optic2000.com/magasins/l/saint-pourcain-sur-sioule/2-rue-fg-de-paris/c01895",
+    "facebook": "Optic2000saintpourcainsursioule"
+  },
+  {
+    "codec": "C03801",
+    "adresse": "7, RUE DU COUVENT",
+    "cp": "56550",
+    "ville": "BELZ",
+    "site": "https://optic2000.com/magasins/l/belz/7-rue-du-couvent/c03801",
+    "facebook": "Optic2000belz"
+  },
+  {
+    "codec": "C03835",
+    "adresse": "route de neufchateau",
+    "cp": "88140",
+    "ville": "CONTREXEVILLE",
+    "site": "https://optic2000.com/magasins/l/contrexeville/route-de-neufchateau/c03835",
+    "facebook": "Optic2000contrexeville"
+  },
+  {
+    "codec": "C01918",
+    "adresse": "Galerie Marchande Super U",
+    "cp": "67760",
+    "ville": "GAMBSHEIM",
+    "site": "https://optic2000.com/magasins/l/gambsheim/galerie-marchande-super-u/c01918",
+    "facebook": "Optic2000gambsheim"
+  },
+  {
+    "codec": "C03848",
+    "adresse": "92, boulevard de l'europe",
+    "cp": "64230",
+    "ville": "LESCAR",
+    "site": "https://optic2000.com/magasins/l/lescar/92-boulevard-de-l-europe/c03848",
+    "facebook": "Optic2000lescar"
+  },
+  {
+    "codec": "C01193",
+    "adresse": "Route de MAIZIERES",
+    "cp": "57280",
+    "ville": "HAUCONCOURT",
+    "site": "https://optic2000.com/magasins/l/hauconcourt/route-de-maizieres/c01193",
+    "facebook": "Optic2000hauconcourt"
+  },
+  {
+    "codec": "C01854",
+    "adresse": "4, ZAC de Bellevue",
+    "cp": "57310",
+    "ville": "GUENANGE",
+    "site": "https://optic2000.com/magasins/l/guenange/4-zac-de-bellevue/c01854",
+    "facebook": "Optic2000guenange"
+  },
+  {
+    "codec": "C02827",
+    "adresse": "RD 55 Zone de la Ponte",
+    "cp": "57525",
+    "ville": "TALANGE",
+    "site": "https://optic2000.com/magasins/l/talange/rd-55-zone-de-la-ponte/c02827",
+    "facebook": "Optic2000talange"
+  },
+  {
+    "codec": "C02556",
+    "adresse": "Centre Commercial Carrefour Market",
+    "cp": "57365",
+    "ville": "ENNERY",
+    "site": "https://optic2000.com/magasins/l/ennery/centre-commercial-carrefour-market/c02556",
+    "facebook": "Optic2000ennery"
+  },
+  {
+    "codec": "C02928",
+    "adresse": "ZAC de Jailly Sur le Grand Abani",
+    "cp": "57535",
+    "ville": "MARANGE-SILVANGE",
+    "site": "https://optic2000.com/magasins/l/marange-silvange/zac-de-jailly-sur-le-grand-abani/c02928",
+    "facebook": "Optic2000marangesilvange"
+  },
+  {
+    "codec": "C00912",
+    "adresse": "39, rue du Maréchal Lefebvre",
+    "cp": "68250",
+    "ville": "ROUFFACH",
+    "site": "https://optic2000.com/magasins/l/rouffach/39-rue-du-marechal-lefebvre/c00912",
+    "facebook": "Optic2000rouffach"
+  },
+  {
+    "codec": "C02493",
+    "adresse": "8, place de la République",
+    "cp": "21700",
+    "ville": "NUITS SAINT GEORGES",
+    "site": "https://optic2000.com/magasins/l/nuits-saint-georges/8-place-de-la-republique/c02493",
+    "facebook": "Optic2000nuitssaintgeorges"
+  }
+]
